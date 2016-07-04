@@ -1,0 +1,40 @@
+<%- include header %>
+<div class="page">
+    <div class="hd">
+        <h3 style="color:#888;text-align:center">填写个人信息</h3>
+    </div>
+    <div class="weui_cells weui_cells_form">
+      <form  method="POST">
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label for="" class="weui_label">姓名</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input va" type="text" name="username" placeholder="填写真实姓名"/>
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label for="" class="weui_label">学号</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input va" type="text" name="stuNum" placeholder="填写学号"/>
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label for="" class="weui_label">电话</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input va" type="text" name="pNum" placeholder="填写电话"/>
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label for="" class="weui_label">班级</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input va" type="text" name="className" placeholder="填写班级"/>
+            </div>
+        </div>
+        <div class="weui_cell">
+            <input class="weui_btn weui_btn_primary" type="submit"  value="提交"/>
+        </div>
+    </div>
+      </form>
+
+
+</div>
+<%- include footer %>
